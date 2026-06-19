@@ -36,5 +36,4 @@ Ensure you have the latest stable version of [Node.js](https://nodejs.org/) inst
 ### 1. Clone the Codebase
 Download this project repository to your local computer using Git terminal strings:
 ```bash
-git clone [https://github.com/YOUR_GITHUB_USERNAME/naijajobs-capstone.git](https://github.com/YOUR_GITHUB_USERNAME/naijajobs-capstone.git)
-cd naijajobs-capstone
+git clone https://github.com/GentleO/naijajobs_capstone.git
