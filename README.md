@@ -1,4 +1,5 @@
 # NaijaJobs — Premium Nigerian Job Listing Platform 🇳🇬
+(Frontend Track)
 
 A high-performance, modern job board dedicated to linking exceptional Nigerian tech and creative professionals with top-tier domestic enterprises and global operations. This platform handles dynamic search routing, category filtering pipelines, user submission form with client-side validation, and local data persistence arrays.
 
@@ -37,3 +38,6 @@ Ensure you have the latest stable version of [Node.js](https://nodejs.org/) inst
 Download this project repository to your local computer using Git terminal strings:
 ```bash
 git clone https://github.com/GentleO/naijajobs_capstone.git
+
+### video-demo link 
+https://youtu.be/0CGBc_4qCHc
