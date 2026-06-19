@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+  /* Color Palette Constraints */
+  --primary-color: #1A5C38;    /* Forest Green */
+  --accent-color: #F5A623;     /* Nigerian Gold */
+  --bg-color: #FAFAF8;         /* Off-white */
+  --text-color: #1A1A1A;       /* Charcoal Black */
+  --muted-color: #888888;      /* Grey Muted */
+  --card-bg: #FFFFFF;
+  --input-border: #CCCCCC;
+
+  /* Typography Rules */
+  --heading-font: 'Playfair Display', serif;
+  --body-font: 'DM Sans', sans-serif;
+}
+
+/* Dark Mode Extensions */
+[data-theme='dark'] {
+  --primary-color: #2ea363;
+  --bg-color: #121212;
+  --text-color: #F5F5F5;
+  --muted-color: #A0A0A0;
+  --card-bg: #1E1E1E;
+  --input-border: #444444;
+}

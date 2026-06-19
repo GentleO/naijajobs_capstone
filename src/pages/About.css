@@ -1,0 +1,9 @@
+.about-wrapper { text-align: center; max-width: 800px; margin: 0 auto; padding: 2rem 0; }
+.about-wrapper h2 { font-size: 2.5rem; color: var(--primary-color); margin-bottom: 1.5rem; }
+.about-intro { font-size: 1.3rem; line-height: 1.8; color: var(--text-color); margin-bottom: 4rem; }
+.values-block { display: flex; gap: 2rem; text-align: left; }
+.value-item { flex: 1; background: var(--card-bg); padding: 2rem; border-radius: 8px; border-top: 4px solid var(--accent-color); box-shadow: 0 4px 10px rgba(0,0,0,0.02); }
+.value-item h4 { font-size: 1.3rem; margin-bottom: 0.8rem; }
+@media (max-width: 600px) {
+  .values-block { flex-direction: column; }
+}

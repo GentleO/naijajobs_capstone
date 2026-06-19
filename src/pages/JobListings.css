@@ -1,0 +1,17 @@
+.page-spacing { padding: 3rem 0; }
+.search-banner { margin-bottom: 2.5rem; text-align: center; }
+.search-banner h2 { margin-bottom: 1rem; font-size: 2.2rem; }
+.search-input {
+  width: 100%; max-width: 600px; padding: 1rem 1.5rem; border-radius: 30px;
+  border: 2px solid var(--input-border); background: var(--card-bg); color: var(--text-color); font-size: 1rem;
+}
+.search-input:focus { outline: none; border-color: var(--primary-color); }
+.filter-button-group { display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap; margin-bottom: 3rem; }
+.filter-btn {
+  background: var(--card-bg); border: 1px solid var(--input-border); color: var(--text-color);
+  padding: 0.5rem 1.5rem; border-radius: 20px; cursor: pointer; font-weight: 600;
+}
+.filter-btn.active-filter, .filter-btn:hover {
+  background: var(--primary-color); color: white; border-color: var(--primary-color);
+}
+.no-results { text-align: center; grid-column: 1 / -1; color: var(--muted-color); font-size: 1.2rem; margin-top: 2rem; }
